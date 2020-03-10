@@ -32,6 +32,12 @@ class CashRegister
     first_target_item = @items.find_index(last_item)
     quantity = @items.length-first_target_item
     @total -= last_price * quantity
+
+    while @items.include?(last_item)
+
+
+      @items.pop
+    end
   end
 
 end
