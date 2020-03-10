@@ -35,7 +35,7 @@ class CashRegister
 
     while @items.include?(last_item)
 
-
+      @prices.pop
       @items.pop
     end
   end
