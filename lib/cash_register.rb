@@ -35,8 +35,3 @@ class CashRegister
   end
 
 end
-
-# a = CashRegister.new(20)
-# a.add_item("macbook air", 1000)
-# a.apply_discount
-# puts a.discounts
